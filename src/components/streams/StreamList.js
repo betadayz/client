@@ -22,6 +22,7 @@ import { fetchStreams } from '../../actions';
      };
 
     render() {
+        console.log(this.props.streams)
         return (
             <div>
                 <h2>Streams</h2>

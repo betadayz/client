@@ -7,6 +7,7 @@ import { fetchStream, deleteStream } from '../../actions';
 
 
 class StreamDelete extends React.Component {
+    // Getting data from the Server
    componentDidMount() {
        this.props.fetchStream(this.props.match.params.id);
    }

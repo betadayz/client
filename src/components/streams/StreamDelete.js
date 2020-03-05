@@ -11,6 +11,8 @@ class StreamDelete extends React.Component {
    componentDidMount() {
        this.props.fetchStream(this.props.match.params.id);
    }
+
+   // creating a modal delete options
    renderAction() {
        const id = this.props.match.params.id;
         return  (

@@ -15,6 +15,9 @@ class StreamForm extends Component {
             )
         }
     }
+
+    // Input code
+    
     renderInput = ({ input, label, meta }) => {
         const notice = `field ${meta.error && meta.touched ? 'error': '' }`;
          return (

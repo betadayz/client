@@ -6,6 +6,8 @@ import StreamForm from './StreamForm';
 import { formValues } from 'redux-form';
 
 class StreamEdit extends React.Component {
+
+    // Edit stream write up
     componentDidMount() {
         this.props.fetchStream(this.props.match.params.id);
     }

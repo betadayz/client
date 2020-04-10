@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import { fetchStreams } from '../../actions';
 
  class StreamList extends Component {
+
+     // fetching data from the database
      componentDidMount() {
          this.props.fetchStreams()
      }

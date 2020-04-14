@@ -1,5 +1,6 @@
 import { SIGN_IN, SIGN_OUT } from '../actions/TypeAction';
 
+// reducers
 const INTIAL_STATE = {
     isSignedIn: null,
     userId: null

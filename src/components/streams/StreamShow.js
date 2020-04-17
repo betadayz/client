@@ -3,6 +3,8 @@ import flv from 'flv.js';
 import { connect } from 'react-redux';
 import { fetchStream } from '../../actions';
 
+
+// streams show 
 class StreamShow extends React.Component {
     constructor(props) {
         super(props);

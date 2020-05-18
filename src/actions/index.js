@@ -10,6 +10,7 @@ import {
     EDIT_STREAM 
 } from './TypeAction';
 
+// React project
 export const signIn = (userId) => {
     return {
         type: SIGN_IN,
